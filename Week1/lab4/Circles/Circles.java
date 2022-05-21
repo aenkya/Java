@@ -28,4 +28,9 @@ class Circles extends JFrame {
      setTitle("Circles");
      setVisible(true);
     }         
+
+    public static void main(String[] args) {
+        Circles c = new Circles();
+        c.startCircles();
+    }
 }

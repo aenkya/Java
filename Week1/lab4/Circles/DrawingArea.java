@@ -18,6 +18,10 @@ public class DrawingArea extends JPanel {
       
       // You might want to introduce a loop somewhere here.
 
-      g.drawOval(200-size/2,200-size/2,size,size);
+      // 10 cocentric circles
+      for(int i=0; i<10;i++) {
+        g.drawOval(200-((size-(i*20))/2), 200-((size-(i*20))/2), size-(i*20), size-(i*20));
+      }
+      
     }// the end of the method....
 }
