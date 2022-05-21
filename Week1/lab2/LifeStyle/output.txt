@@ -1,0 +1,5 @@
+Healthy pulse = true
+Checking for abuse -- false
+Checking for desirability -- false
+Person 2: 
+Checking for desirability -- true
