@@ -26,12 +26,8 @@ public class KlingonShip
 		return dangerLevel;
 	}
 
-	/**
-	 * Prompts the user for the KlingonShip settings.
-	 * 
-	 * @param input Scanner object for user input.
-	 */
-	void promptSettings(Scanner input) {
+	void promptSettings() {
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the photon power: ");
 		photonPower = input.nextDouble();
 		System.out.println("Enter the threat factor: ");
